@@ -1,0 +1,30 @@
+// FOOTER
+
+footer {
+    background: linear-gradient(220.94deg, $secondary-normal 14.43%, $primary-normal 85.28%);
+}
+
+.footer-flex-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    p {
+        color: $white-dark;
+        max-width: 350px;
+    }
+}
+
+.footer-flex-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    max-height: 72px;
+
+    flex: 1 1 320px;
+
+    svg {
+        max-width: 36px;
+    }
+}
